@@ -1,5 +1,6 @@
 body {
-	background: <img src="images/backgroundsm.jpg">;
+background: url("http://ingridkennedy.github.io/unit_3/images/backgroundsm.jpg");
+background-size: cover;
 }
 
 
@@ -7,9 +8,16 @@ h1 {
 	font-family: Arial;
 	color: #FFA2C9;
 	font-size: 24px;
+	text-align: center;
 }
-p
+p {
+	color: pink;
+	font-family: Arial;
+
+
+ }
 ul
 li
 img
 #slogan
+
