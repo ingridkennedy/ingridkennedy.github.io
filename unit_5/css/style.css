@@ -1,0 +1,61 @@
+@import url(https://fonts.googleapis.com/css?family=Karla);
+@import url(https://fonts.googleapis.com/css?family=Raleway:300);
+@import url(https://fonts.googleapis.com/css?family=Arimo);
+@import url(https://fonts.googleapis.com/css?family=Oxygen:300);
+@import url(https://fonts.googleapis.com/css?family=Nunito:300);
+
+body {
+	background-color: #eaedec;
+	font-family: 'Arimo', sans-serif;
+	font-size: 12px;
+
+}
+
+h1{
+	font-family: 'Arial';
+	font-size: 4em;
+
+}
+
+h2 {
+	font-size: 3em;
+
+}
+
+h3{
+	font-size: 2em;
+
+}
+
+p {
+	color: #191919;
+	line-height: 1.5em;
+	padding-right: 2em;
+	padding-left: 2em;
+
+}
+
+nav {
+	background-color: #E8C66A;
+	border: 1px black solid;
+	padding: 2em;
+
+}
+
+aside {
+	background-color: #FFC675;
+	border: 1px black solid;
+	padding: 2em;
+}
+
+article {
+	background-color: #E89C6C;
+	border: 1px black solid;
+	padding: 2em;
+}
+
+footer {
+	background-color: #FF957E;
+	border: 1px black solid;
+	padding: 2em;
+}

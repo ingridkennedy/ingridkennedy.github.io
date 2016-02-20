@@ -8,21 +8,27 @@ background-size: cover;
 
 
 h1 {
-	font-family: 'Voces', cursive;
+	font-family: 'Voces', sans-serif;
 	color: #FFA2C9;
 	font-size: 24px;
 	text-align: center;
 }
+h2 {
+	font-family: 'Voces', sans-serif;
+	color: #FFA2C9;
+	font-size: 18px;
+	text-align: center;
+}
 p {
 	font-family: 'Arvo', serif;
+	line-height: 1.5em;
 	color: pink;
-	font-family: Arial;
-	padding-right: 20px;
-	padding-left: 20px;
+	padding-right: 2em;
+	padding-left: 2em;
 
  }
+
 ul
 li
 img
 #slogan
-
