@@ -1,3 +1,9 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
 @import url(https://fonts.googleapis.com/css?family=Karla);
 @import url(https://fonts.googleapis.com/css?family=Raleway:300);
 @import url(https://fonts.googleapis.com/css?family=Arimo);
@@ -9,6 +15,10 @@ body {
 	font-family: 'Arimo', sans-serif;
 	font-size: 12px;
 
+}
+
+h1, h2, h3 {
+	font-weight: 100;
 }
 
 h1{
@@ -24,7 +34,38 @@ h2 {
 
 h3{
 	font-size: 2em;
+}
 
+a {
+	color: #dd0000;
+	text-decoration: none;
+}
+
+header {
+	padding: 30px 0;
+}
+
+nav {
+	background-color: #E8C66A;
+	text-align: left;
+	font-size: 24px;
+
+}
+
+
+	border: 1px black solid;
+	padding: 2em;
+
+nav a {
+	color: #ffffff;
+	display: block;
+	width: 270px;
+	float: left;
+	padding: 50px 0;
+}
+
+nav a:hover {
+	background-color: #dd0000;
 }
 
 p {
@@ -32,30 +73,46 @@ p {
 	line-height: 1.5em;
 	padding-right: 2em;
 	padding-left: 2em;
-
 }
 
-nav {
-	background-color: #E8C66A;
-	border: 1px black solid;
-	padding: 2em;
-
-}
 
 aside {
 	background-color: #FFC675;
 	border: 1px black solid;
 	padding: 2em;
+	width: 680px;
+	float: left;
+
 }
 
 article {
 	background-color: #E89C6C;
 	border: 1px black solid;
 	padding: 2em;
+	width: 400px;
+	float: right;
+
 }
 
 footer {
 	background-color: #FF957E;
 	border: 1px black solid;
 	padding: 2em;
+	clear: both;
+}
+
+.clearfix:after {
+	display: block;
+	content: " ";
+	clear: both;
+
+	height: 0;
+	font-size: 0;
+	visibility; hidden;
+}
+
+#wrapper {
+	width: 1080px;
+	margin-left: auto;
+	margin-right: auto;
 }
