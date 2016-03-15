@@ -1,4 +1,8 @@
-
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
 
 @import url(https://fonts.googleapis.com/css?family=Karla);
 @import url(https://fonts.googleapis.com/css?family=Raleway:300);
@@ -6,11 +10,7 @@
 @import url(https://fonts.googleapis.com/css?family=Oxygen:300);
 @import url(https://fonts.googleapis.com/css?family=Nunito:300);
 
-* {
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
-}
+
 
 body {
 	background-color: #eaedec;
@@ -43,7 +43,7 @@ a {
 }
 
 header {
-	padding: 30px 0;
+	padding: 30px 0 0 0;
 	margin-left: auto;
 	margin-right: auto;
 	width: 100%;
@@ -77,15 +77,13 @@ a:hover {
 p {
 	color: #191919;
 	line-height: 1.5em;
-	padding-right: 2em;
-	padding-left: 2em;
 }
 
 
 aside {
-	background-color: #FFC675;
-	border: 1px black solid;
+	background-color: white;
 	padding: 1em;
+	height: 50em;
 	margin: 0em 0 0 1%;
 	width: 66%;
 	float: left;
@@ -93,8 +91,7 @@ aside {
 }
 
 article {
-	background-color: #E89C6C;
-	border: 1px black solid;
+	background-color: white;
 	padding: 1em;
 	width: 33%;
 	float: right;
@@ -102,14 +99,12 @@ article {
 }
 
 footer {
-	background-color: #FF957E;
-	border: 1px black solid;
+	background-color: white;
 	padding: 2em;
 	clear: both;
 }
 
 img {
-	width: 100%;
 	max-width: 100%;
 }
 
@@ -122,17 +117,28 @@ img {
 	font-size: 0;
 }
 
-#picture {
-	width: 100%;
+#picture img{
+	width: 500px;
 }
 
 #logo {
 	width: 30%;
 	float: left;
-	height: 15em;
+	height: 16em;
 	padding: 10em 0em .5em 2em;
 	background-color: white;
 }
+
+#ebooks {
+	width: 25%;
+	float: left;
+	padding: 3em 0em 1em 1em;
+}
+
+#book img {
+		width: 15%;
+	}
+
 
 @media only screen and (max-width: 786px) {
 #picture, #book {
