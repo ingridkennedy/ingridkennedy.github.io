@@ -1,45 +1,47 @@
+@import url(https://fonts.googleapis.com/css?family=Karla);
+@import url(https://fonts.googleapis.com/css?family=Raleway:300);
+@import url(https://fonts.googleapis.com/css?family=Arimo);
+@import url(https://fonts.googleapis.com/css?family=Oxygen:300);
+@import url(https://fonts.googleapis.com/css?family=Nunito:300);
 * {
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
 }
 
-@import url(https://fonts.googleapis.com/css?family=Karla);
-@import url(https://fonts.googleapis.com/css?family=Raleway:300);
-@import url(https://fonts.googleapis.com/css?family=Arimo);
-@import url(https://fonts.googleapis.com/css?family=Oxygen:300);
-@import url(https://fonts.googleapis.com/css?family=Nunito:300);
-
-
 
 body {
 	background-color: #eaedec;
 	font-family: 'Arimo', sans-serif;
-	font-size: 12px;
+	font-size: 16px;
 	width: 100%;
-
 }
 
 h1, h2, h3 {
 	font-weight: 100;
 }
 
-h1{
+h2{
 	font-family: 'Arial';
 	font-size: 4em;
+	margin-bottom: .25em;
 }
 
 h2 {
-	font-size: 3em;
+	/* font-size: 3em; */
 }
 
-h3{
+h3,h1{
 	font-size: 1.5em;
 }
 
 a {
 	color: #dd0000;
 	text-decoration: none;
+	display: inline-block;
+	/* margin-top: 10em; */
+	padding: 1em;
+	/* border: 2px solid; */
 }
 
 header {
@@ -69,8 +71,10 @@ nav a {
 	padding: 6em 0em .5em 1em;
 	margin-left: 1em;
 }
-
-a:hover {
+nav a:nth-of-type(2) {
+	background-color:#dd0000;
+}
+a:hover,nav a:nth-of-type(2):hover {
 	background-color: #3f3f3f;
 }
 
@@ -79,22 +83,23 @@ p {
 	line-height: 1.5em;
 }
 
-
-aside {
+section {
+	background:#fff;
+}
+section>img {
 	background-color: white;
 	padding: 1em;
-	height: 50em;
-	margin: 0em 0 0 1%;
-	width: 66%;
+	/* height: 50em; */
+	margin: 0em 0 0 0;
+	width: 66.66%;
 	float: left;
-
 }
 
-article {
+section>div {
 	background-color: white;
 	padding: 1em;
-	width: 33%;
-	float: right;
+	width: 33.33%;
+	float: left;
 
 }
 
@@ -130,7 +135,7 @@ img {
 }
 
 #ebooks {
-	width: 25%;
+	max-width: 100%;
 	float: left;
 	padding: 3em 0em 1em 1em;
 }
